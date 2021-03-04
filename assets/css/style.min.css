@@ -2629,7 +2629,7 @@ a.btn.disabled, fieldset:disabled a.btn {
 .btn-group-toggle>.btn, .btn-group-toggle>.btn-group>.btn, .custom-control-label, .custom-file, .dropdown-header, .input-group-text, .nav {
     margin-bottom: 0
 }
-.header-1{position: fixed!important; top: 90px;}
+.header-1{position: fixed!important; top: 120px;}
 
 .dropdown-item {
     display: block;
@@ -8230,7 +8230,7 @@ font-style:italic
     z-index: 999
 }
 .core-nav.nav-core-sticky {
-    position: relative
+    position: relative;
 }
 .core-nav.nav-core-sticky.on-scroll {
     position: fixed;
@@ -14059,6 +14059,7 @@ img.mfp-img {
     -webkit-box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
     box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
 	height:60px;
+    top: 0px;
 }
 
 @media (max-width:991px) {
@@ -15015,7 +15016,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endC
 .footer {
     position: relative;
     display: block;
-    padding: 100px 0 0
+    padding: 100px 0 0;
+    background: #191919;
 }
 .footer__widget {
     margin-bottom: 60px
@@ -15030,7 +15032,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endC
 }
 }
 .footer__widget-title {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    color:white;
 }
 
 @media (max-width:991px) {
@@ -15060,7 +15063,8 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endC
     font-family: FontAwesome;
     position: absolute;
     left: 0;
-    top: 0
+    top: 0;
+    color:white;
 }
 .footer__widget-linklist {
     margin: 0;
@@ -15083,8 +15087,10 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endC
     display: inline-block
 }
 .footer__widget-linklist li a {
-    color: #2c2d2d
+    color: #FFFFFF;
 }
+p{color:white!important;}
+
 .footer__widget-linklist li a:hover {
     color: #0f44b2
 }
@@ -15137,7 +15143,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endC
     padding: 0
 }
 .footer__subfooter-liststyle li a {
-    color: #2c2d2d
+    color: #FFFFFF;
 }
 .footer__subfooter-liststyle li a:hover {
     color: #0f44b2
@@ -18530,9 +18536,93 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#624ada', endC
 	       
 	}
 	.change-header:hover {
-    background: #0f4674;
+    background: none!important;
     -webkit-box-shadow: 0 3px 59px 0 rgb(0 0 0 / 15%);
     box-shadow: none!important;
 }
+.change-header{position: absolute!important;}
+.mail-style{
+font-family: "Montserrat Bold", sans-serif;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* text-align: left; */
+    position: absolute;
+    left: 35%;
+    top: 12px;
+}
+.mail-style-in{
+    font-family: "Montserrat Bold", sans-serif;
+    font-size: 16px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* text-align: left; */
+    position: absolute;
+    left: 35%;
+    top: 40px;
+    }
+    .mail-style-0 {
+        font-family: "Montserrat Bold", sans-serif;
+        font-size: 28px;
+        line-height: 42px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        /* text-align: left; */
+        position: absolute;
+        left: 32%;
+        top: 28px;
+        color: #8a8a8a;
+    }
+
+    .mail-style-phone-1{
+        font-family: "Montserrat Bold", sans-serif;
+            font-size: 20px;
+            line-height: 42px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            /* text-align: left; */
+            position: absolute;
+            left: 58%;
+            top: 12px;
+        }
+        .mail-style-in-phone{
+            font-family: "Montserrat Bold", sans-serif;
+            font-size: 16px;
+            line-height: 42px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            /* text-align: left; */
+            position: absolute;
+            left: 58%;
+            top: 40px;
+            }
+            .mail-style-phone {
+                font-family: "Montserrat Bold", sans-serif;
+                font-size: 28px;
+                line-height: 42px;
+                margin-top: 0;
+                margin-bottom: 20px;
+                /* text-align: left; */
+                position: absolute;
+                left: 55%;
+                top: 28px;
+                color: #8a8a8a;
+            }
+            .whatsapp-color{
+                font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    right: 260px;
+    background: burlywood;
+    border-radius: 30px;
+    padding: 5px;
+            }
+            .colo li a i{color:white;}
+            .simp{background: none !important;}
+
+.ankhor{color:black!important;}
 	
 	
