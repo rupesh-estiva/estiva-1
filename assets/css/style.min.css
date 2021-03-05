@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
 
 
-body{font-family: 'Dosis', sans-serif!important;}
+/* body{font-family: 'Dosis', sans-serif!important;} */
 
 mfp-arrow, .owl-carousel, .owl-carousel .owl-item, html {
     -webkit-tap-highlight-color: transparent
@@ -12583,7 +12583,7 @@ transform:rotate(359deg)
     background-image: url(../icons/svg/wallet.svg)
 }
 .pricing__content-price, .pricing__grid-header--icon, .section__heading, h1 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 36px;
     line-height: 48px;
     color: #2c2d2d;
@@ -12607,7 +12607,7 @@ transform:rotate(359deg)
 }
 }
 .blockquote blockquote::after, .blockquote blockquote::before, .headline::before, .tabs__navigation-item--icon, .testimoni blockquote::after, .testimoni blockquote::before, h2 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 28px;
     line-height: 42px;
     margin-top: 0;
@@ -12630,7 +12630,7 @@ transform:rotate(359deg)
 }
 }
 .blockquote blockquote, .pricing__popular .pricing__content p, .team__card--join-link, .testimoni blockquote, h3 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 24px;
     line-height: 36px;
     margin-top: 0;
@@ -12653,7 +12653,7 @@ transform:rotate(359deg)
 }
 }
 .article__card-comment, .footer__widget-contact .fa, .form__subscribe-button, .masthead__content-subtitle, .pricing__content p, .pricing__grid-price, .pricing__popular .pricing__content-currency, .pricing__popular .pricing__content-package, .testimoni__author, h4 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 20px;
     line-height: 28px;
     margin-top: 0;
@@ -12676,7 +12676,7 @@ transform:rotate(359deg)
 }
 }
 .package__content ul li, .pricing__content-currency, .pricing__content-package, .pricing__grid-content, .section__cta-subscribe-input, .tabs__navigation-item--link, h5 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 16px;
     line-height: 24px;
     margin-top: 0;
@@ -12699,7 +12699,7 @@ transform:rotate(359deg)
 }
 }
 h6 {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 14px;
     line-height: normal;
     margin-top: 0;
@@ -12732,7 +12732,7 @@ h6 {
     color: #000000!important;
     font-size: 16px;
     line-height: normal;
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     padding: 20px 0;
     text-decoration: none;}
 .core-nav_logo{background-color:#fff!important;}
@@ -14104,7 +14104,7 @@ img.mfp-img {
     color: #FFFFFF;
     font-size: 16px;
     line-height: normal;
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     padding: 16px 0;
     text-decoration: none
 }
@@ -14223,8 +14223,7 @@ img.mfp-img {
 .core-nav .wrap-core-nav-list.right .dropdown>.dropdown-menu li a {
     display: block;
     padding: 15px 20px!important;
-    font-family: Montserrat, sans-serif;
-    border-bottom: 1px solid #d7deee
+  font-family: "Montserrat Bold",sans-serif;     border-bottom: 1px solid #d7deee
 }
 .core-nav .wrap-core-nav-list.right .dropdown>.dropdown-menu li a::after {
     display: none;
@@ -15256,8 +15255,7 @@ p{text-align:justify;}
 .aside__widget-recent--post-title {
     position: relative;
     line-height: 28px;
-    font-family: Montserrat, sans-serif;
-    margin: 0
+  font-family: "Montserrat Bold",sans-serif;     margin: 0
 }
 .aside__widget-recent--post-title a {
     color: #000
@@ -15292,7 +15290,7 @@ p{text-align:justify;}
     text-align: center
 }
 .aside__widget-instagram--follow label {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     margin: 0
 }
 .aside__widget-categories {
@@ -15334,7 +15332,7 @@ p{text-align:justify;}
 }
 .section__cta {
     background: url(../images/cta-bg.png) center center no-repeat #0f4674;
-    padding: 100px 0;
+    padding: 30px 0;
     color: #fff;
     text-align: center
 }
@@ -15370,8 +15368,7 @@ p{text-align:justify;}
 }
 }
 .section__cta-subscribe-input {
-    font-family: Montserrat, sans-serif;
-    width: 100%;
+  font-family: "Montserrat Bold",sans-serif;     width: 100%;
     background: 0 0;
     padding: 20px 0;
     border: none;
@@ -15958,7 +15955,8 @@ button:active, button:focus, button:hover {
 .btn-link {
     color: #2c2d2d;
     padding-right: 20px;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
+    font-weight: 700;
 }
 .btn-link::after, .team__thumbnail img {
     -webkit-transition: all .3s ease-in-out
@@ -16072,7 +16070,8 @@ button:active, button:focus, button:hover {
     text-align: center
 }
 .column__boxed-title {
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 .column__boxed-icon {
     position: absolute;
@@ -16364,14 +16363,15 @@ button:active, button:focus, button:hover {
     font-family: FontAwesome;
     line-height: 48px;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 50px;
+    height: 50px;
     overflow: hidden;
     background: #2c2d2d;
     border-radius: 50%;
     color: #fff;
-    padding: 20px 0;
-    margin-bottom: 0
+    padding: 3px 0;
+    font-size: 26px;
+    margin-bottom: 0;
 }
 
 @media (max-width:991px) {
@@ -16746,8 +16746,7 @@ button:active, button:focus, button:hover {
 .blockquote blockquote {
     text-align: center;
     position: relative;
-    font-family: Montserrat, sans-serif;
-    font-style: italic;
+  font-family: "Montserrat Bold",sans-serif;     font-style: italic;
     padding: 0 30px
 }
 
@@ -16847,8 +16846,7 @@ button:active, button:focus, button:hover {
 }
 .testimoni blockquote {
     position: relative;
-    font-family: Montserrat, sans-serif;
-    font-style: italic;
+  font-family: "Montserrat Bold",sans-serif;     font-style: italic;
     padding: 0 30px;
     margin-bottom: 40px
 }
@@ -16913,7 +16911,7 @@ button:active, button:focus, button:hover {
 }
 }
 .article__card-label {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     display: block;
     margin-bottom: 10px;
     color: #2c2d2d
@@ -17641,7 +17639,7 @@ button:active, button:focus, button:hover {
 }
 }
 .blog__listing-meta li label {
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     margin: 0 5px 0 0
 }
 .blog__listing-meta li label i {
@@ -17835,8 +17833,7 @@ button:active, button:focus, button:hover {
     font-size: 14px;
     line-height: 14px;
     font-weight: 400;
-    font-family: Montserrat, sans-serif;
-    background: #d7deee;
+  font-family: "Montserrat Bold",sans-serif;     background: #d7deee;
     padding: 4px 15px;
     border-radius: 20px
 }
@@ -18547,7 +18544,7 @@ filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#624ada', endC
     top: 28px;
 }
 .mail-style{
-font-family: "Montserrat Bold", sans-serif;
+font-family: 'Dosis', sans-serif;
     font-size: 20px;
     line-height: 42px;
     margin-top: 0;
@@ -18558,7 +18555,7 @@ font-family: "Montserrat Bold", sans-serif;
     top: 12px;
 }
 .mail-style-in{
-    font-family: "Montserrat Bold", sans-serif;
+  font-family: "Montserrat Bold",sans-serif; 
     font-size: 16px;
     line-height: 42px;
     margin-top: 0;
@@ -18569,7 +18566,7 @@ font-family: "Montserrat Bold", sans-serif;
     top: 40px;
     }
     .mail-style-0 {
-        font-family: "Montserrat Bold", sans-serif;
+      font-family: "Montserrat Bold",sans-serif; 
         font-size: 28px;
         line-height: 42px;
         margin-top: 0;
@@ -18582,7 +18579,7 @@ font-family: "Montserrat Bold", sans-serif;
     }
 
     .mail-style-phone-1{
-        font-family: "Montserrat Bold", sans-serif;
+      font-family: "Montserrat Bold",sans-serif; 
             font-size: 20px;
             line-height: 42px;
             margin-top: 0;
@@ -18593,7 +18590,7 @@ font-family: "Montserrat Bold", sans-serif;
             top: 12px;
         }
         .mail-style-in-phone{
-            font-family: "Montserrat Bold", sans-serif;
+          font-family: "Montserrat Bold",sans-serif; 
             font-size: 16px;
             line-height: 42px;
             margin-top: 0;
@@ -18604,7 +18601,7 @@ font-family: "Montserrat Bold", sans-serif;
             top: 40px;
             }
             .mail-style-phone {
-                font-family: "Montserrat Bold", sans-serif;
+              font-family: "Montserrat Bold",sans-serif; 
                 font-size: 28px;
                 line-height: 42px;
                 margin-top: 0;
@@ -18627,6 +18624,16 @@ font-family: "Montserrat Bold", sans-serif;
             }
             .colo li a i{color:white;}
             .simp{background: none !important;}
+            .none-list{ font-size: 20px;
+                line-height: 22px;
+                margin-bottom: 10px;
+                font-weight: 600;
+            color:white!Important;}
+                .styling-class{padding-left: 60px; font-size: 17px; color:white!important;}
+                .pad{padding-bottom:30px;}
+                .whu{color:white!Important;}
+                .font-se{font-size:16px;}
+                .weight-fo{font-weight:bold;}
 
 .ankhor{color:black!important;}
 	
